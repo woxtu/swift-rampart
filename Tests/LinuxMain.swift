@@ -3,5 +3,6 @@ import XCTest
 import RampartTests
 
 var tests = [XCTestCaseEntry]()
-tests += RampartTests.allTests()
+tests += RampartTests.__allTests()
+
 XCTMain(tests)
